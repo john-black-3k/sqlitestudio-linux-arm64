@@ -17,7 +17,7 @@ Inside the script you can specify at the top:
 
 ## (Only if you are building in UserLand app) How to put files in `/storage/internal/sqlite` directory inside UserLand
 
-You need to go to the following directory in an Android file manager app: `/storage/emulated/0/Android/data/tech.ula/files/storage` and create the `sqlite` subdirectory. This will be the `/storage/internal/sqlite` directory inside UserLand.
+You need to go to the following directory in an Android file manager app: `/storage/emulated/0/Android/data/tech.ula/files/storage` and create the `sqlite` subdirectory. This will be the `/storage/internal/sqlite` directory inside UserLand. See [Importing and exporting files in UserLAnd](https://github.com/CypherpunkArmory/UserLAnd/wiki/Importing-and-exporting-files-in-UserLAnd) wiki entry for more details.
 
 I recommend using Total Commander for Android 3.6 beta4 with support for Shizuku. Go [here](https://www.ghisler.ch/board/viewtopic.php?t=82510) to download.
 
