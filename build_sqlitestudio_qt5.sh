@@ -347,12 +347,12 @@ patchelf --set-rpath '$ORIGIN' \
 # Assemble portable package
 echo "Assemble portable package"
 cd $PORTABLE_DIR/..
-ARCHIVE_NAME="sqlitestudio-aarch64-$SQLITE_STUDIO_VERSION"
+ARCHIVE_NAME="sqlitestudio-$SQLITE_STUDIO_VERSION-linux-aarch64"
 case $PORTABLE_DIR_VERSION in
     [Yy]* )  tar cf $ARCHIVE_NAME.tar SQLiteStudio-$SQLITE_STUDIO_VERSION ;;
     * ) tar cf $ARCHIVE_NAME.tar SQLiteStudio ;;
 esac
-xz -z $ARCHIVE_NAME.tar
+xz -9 $ARCHIVE_NAME.tar
 pwd
 ls -l
 
