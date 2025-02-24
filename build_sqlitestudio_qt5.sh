@@ -13,12 +13,12 @@
 
 set -eu
 
-SQLITE_STUDIO_VERSION="3.4.16"
+SQLITE_STUDIO_VERSION="3.4.17"
 SQLITE_VERSION="3490000"
 PYTHON_VERSION="3.10"
 QT5_LIB_DIR="/usr/lib/aarch64-linux-gnu"
 LIBSSL_DIR_URL="http://ports.ubuntu.com/pool/main/o/openssl/"
-LIBSSL_DEB="libssl1.1_1.1.1f-1ubuntu2.23_arm64.deb"
+LIBSSL_DEB="libssl1.1_1.1.1f-1ubuntu2.24_arm64.deb"
 
 function convert_int_ver() {
 	# https://github.com/pawelsalawa/gh-action-scripts/blob/main/scripts/convert_int_ver.sh
