@@ -156,7 +156,7 @@ case $yn in
     * ) echo "Exiting."; cd ../..; pwd; exit;;
 esac
 
-# installed apt packages: qtbase5-dev qtbase5-dev-tools qt5-qmake qt5-qmake-bin qt5-image-formats-plugin-pdf qt5-image-formats-plugins qtdeclarative5-dev qttools5-dev-tools libqt5svg5-dev qttools5-dev qtscript5-dev
+# installed apt packages: qttools5-dev qttools5-dev-tools qt5-image-formats-plugin-pdf qt5-image-formats-plugins qtdeclarative5-dev libqt5svg5-dev qtscript5-dev
 # apt packages not required by build, but required later: libqt5waylandclient5-dev qtwayland5
 /usr/lib/qt5/bin/qmake \
     CONFIG+=portable \
@@ -191,7 +191,7 @@ cd sqlitestudio-$SQLITE_STUDIO_VERSION
 cd output/build/Plugins
 pwd
 
-# installed apt packages: libssl-dev
+# installed apt packages: libssl-dev libpython3.10-dev
 /usr/lib/qt5/bin/qmake \
     CONFIG+=portable \
     "PYTHON_VERSION = $PYTHON_VERSION" \
